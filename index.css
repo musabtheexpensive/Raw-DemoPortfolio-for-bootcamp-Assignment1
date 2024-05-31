@@ -117,7 +117,7 @@
   align-items: center;
   justify-content: center;
   min-height: 400px;
-  padding: 0px 20PX;
+  padding: 0px 20px;
   justify-content: space-between;
   background: linear-gradient(90deg, #2d2531, #332627, #000000);
 }
@@ -129,6 +129,21 @@
 .experience-details {
   width: 50%;
   padding: 20px 10px;
+}
+/* awards section style start here */
+.awardSection-container {
+  width: 90%;
+  margin: 50px auto;
+justify-content: center;
+align-items: center;
+  min-height: 300px;
+  padding: 90px 20px;
+
+  background: black;
+}
+.awardFlex {
+  display: flex;
+  justify-content: space-between;
 }
 /* responsive section start here */
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
@@ -153,5 +168,9 @@
   }
   .smallDivsection h1 {
     flex-direction: column;
+  }
+  .experience-container {
+    flex-direction: column;
+    margin: 20px 15px;
   }
 }
