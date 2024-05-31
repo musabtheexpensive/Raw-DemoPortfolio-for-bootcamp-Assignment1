@@ -195,6 +195,23 @@
   align-items: center;
   justify-content: space-between;
 }
+/* footer section style start here */
+.footer-container{
+  width: 90%;
+  gap: 20px;
+  margin: 0px auto;
+  min-height: 300px;
+  padding: 25px 10px;
+  background: black;
+}
+.copy-reserved{
+  width: 90%;
+  gap: 20px;
+  margin: 0px auto;
+  min-height: 50px;
+  padding: 10px 10px;
+  background: #121212;
+}
 /* responsive section start here */
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .list-items {
