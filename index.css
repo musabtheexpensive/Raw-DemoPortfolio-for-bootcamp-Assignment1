@@ -77,7 +77,6 @@
   /* padding: 17px 30px; */
   border-radius: 500px;
   padding: 10px, 20px, 10px, 20px;
-  padding: 0px 10px;
   margin: 20px 0px;
   color: whitesmoke;
 }
@@ -134,8 +133,8 @@
 .awardSection-container {
   width: 90%;
   margin: 50px auto;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   min-height: 300px;
   padding: 90px 20px;
 
@@ -145,6 +144,27 @@ align-items: center;
   display: flex;
   justify-content: space-between;
 }
+/* my portfolio style section start here */
+.btn-portfolio {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 15px; */
+  width: 40%;
+  margin: 30px auto;
+  align-items: center;
+}
+.portfolio-btn {
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: fit-content;
+}
+.portfolio-btn a {
+  text-decoration: none;
+}
+.nav-btn a {
+  text-decoration: none;
+}
 /* responsive section start here */
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .list-items {
@@ -152,6 +172,11 @@ align-items: center;
   }
   .header-container {
     min-width: none;
+  }
+  .banner-container {
+    width: 80%;
+    margin: 13px 10px;
+    padding: 10px 10px;
   }
   .logo-container {
     flex-direction: column;
@@ -172,5 +197,25 @@ align-items: center;
   .experience-container {
     flex-direction: column;
     margin: 20px 15px;
+  }
+  .awardSection-container {
+    padding: 15px 15px;
+  }
+  .awardFlex {
+    flex-direction: column;
+  }
+  .smallDivsection {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .smallDivsection h1 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .smallDivsection img {
+    width: 20%;
+  }
+  .tag {
+    padding: 15px 10px;
   }
 }
