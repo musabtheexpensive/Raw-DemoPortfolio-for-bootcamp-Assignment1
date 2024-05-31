@@ -40,7 +40,7 @@
 .banner-container {
   display: flex;
   width: 90%;
-  margin: 100px auto;
+  margin: 20px auto;
   align-items: center;
   min-height: 400px;
   justify-content: center;
@@ -53,6 +53,7 @@
 }
 .banner-image-container {
   width: 50%;
+  padding-bottom: 120px;
 }
 .banner-image-container img {
   width: 70%;
@@ -72,7 +73,7 @@
 }
 .a-link {
   color: #8e8e8e;
-  gap: 5px
+  gap: 5px;
 }
 .tag {
   background-color: #343434;
@@ -83,6 +84,11 @@
   padding: 10px, 20px, 10px, 20px;
   margin: 20px 0px;
   color: whitesmoke;
+}
+.pAnd-H {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .work-icon-container {
   display: flex;
@@ -99,11 +105,7 @@
   width: 50px;
   height: 35px;
 }
-.pAnd-H {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
+
 /* about section style start here */
 .aboutme-container {
   display: flex;
@@ -169,7 +171,7 @@
   text-decoration: none;
 }
 /* project section style start here */
-.project-container{
+.project-container {
   display: flex;
   width: 90%;
   gap: 20px;
@@ -180,7 +182,19 @@
   padding: 40px 20px;
 }
 /* contact me style start here */
-
+.contact-container {
+  width: 90%;
+  gap: 20px;
+  margin: 20px auto;
+  min-height: 400px;
+  padding: 20px 20px;
+  background: #34261b;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* responsive section start here */
 @media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
   .list-items {
@@ -200,12 +214,13 @@
   }
   .banner-container {
     flex-direction: column;
-    margin-top: 30px;
-    padding: 5px;
-    margin: 5px;
+    margin: 0px 5px;
+    padding: 0px 5px;
   }
   .aboutme-container {
     flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px 5px;
   }
   .smallDivsection h1 {
     flex-direction: column;
@@ -232,6 +247,24 @@
     width: 20%;
   }
   .tag {
+    width: 300px;
+    padding: 15px 0px;
+    margin: 5px 0px;
+  }
+  .project-container {
+    flex-direction: column;
     padding: 15px 10px;
+  }
+  .btn-portfolio {
+    gap: 10px;
+    width: 20%;
+    flex-direction: column;
+  }
+  .a-link a i {
+    font-size: 25px;
+  }
+  .banner-image-container img {
+    width: 300px;
+    height: 350px;
   }
 }
