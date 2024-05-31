@@ -56,8 +56,8 @@
 }
 .banner-image-container img {
   width: 70%;
-  height: 90%;
-  margin-left: 90px;
+  height: 100%;
+  /* margin-left: 90px; */
 }
 .smallDivsection {
   display: flex;
@@ -69,6 +69,10 @@
   color: #ffffff;
   font-weight: 300;
   text-transform: uppercase;
+}
+.a-link {
+  color: #8e8e8e;
+  gap: 5px
 }
 .tag {
   background-color: #343434;
