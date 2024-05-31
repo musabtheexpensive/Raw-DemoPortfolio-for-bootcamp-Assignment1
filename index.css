@@ -1,0 +1,48 @@
+/* navbar style start here */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo-container {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fd6f00;
+  font-weight: bolder;
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+.nav-btn {
+  border-radius: 5px;
+  background-color: #fd6f00;
+  padding: 10px 15px;
+  width: fit-content;
+}
+.list-container {
+  width: 45%;
+  margin: 0 auto;
+}
+.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+}
+.list-items a {
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+/* responsive section start here */
+@media only screen and (min-device-width: 200px) and (max-device-width: 576px) {
+    .projects {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .my-blogs{
+      flex-direction: column;
+    }
+  }
+  
