@@ -461,20 +461,40 @@
         >
           Any Question?
         </h1>
-        <div class="form-container">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <label for="message">Message:</label>
-        <input type="message" id="message" name="message" required />
+        <form class="form-container">
+          <input
+            class="input-name"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name Here"
+            required
+          />
+          <input
+            class="input-email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email Here"
+            required
+          />
+        </form>
+        <input
+          class="input-message"
+          type="message"
+          id="message"
+          name="message"
+          placeholder="Message Here"
+          required
+        />
         <div class="attach-container">
           <img src="./images/bannerImage/Vector.png" alt="" />
-          <p>Attach file</p>
+          <p style="color: white; font-size: 15px; text-transform: uppercase">
+            Attach file
+          </p>
         </div>
-        <div class="nav-btn">
-          <a href=""><span style="font-weight: bold">Submit now</span></a>
+        <div class="question-btn">
+          <span style="color: white;">Submit Now</span>
         </div>
       </section>
     </main>
@@ -530,15 +550,14 @@
       <section class="copy-reserved">
         <h1
           style="
-            font-size: 20px;
             align-items: center;
             color: white;
             justify-content: center;
             display: flex;
           "
         >
-          © 2023 <span style="color: #fd6f00; gap: 10px">Name</span> All Rights
-          Reserved , Inc.
+          © 2023 <span style="color: #fd6f00">Name</span> All Rights Reserved ,
+          Inc.
         </h1>
       </section>
     </footer>
